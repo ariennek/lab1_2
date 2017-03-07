@@ -23,9 +23,9 @@ import pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
 public class BookKeeper {
-
+	Invoice invoice;
+	
 	public Invoice issuance(ClientData client, List<RequestItem> items) {
-		Invoice invoice = new Invoice(Id.generate(), client);
 
 		for (RequestItem item : items) {
 			Money net = item.getTotalCost();
@@ -59,8 +59,6 @@ public class BookKeeper {
 					item.getQuantity(), net, tax);
 			invoice.addItem(invoiceLine);
 		}
-
 		return invoice;
 	}
-
 }
