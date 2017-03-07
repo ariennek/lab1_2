@@ -36,7 +36,6 @@ public class Invoice  {
 
 	private List<InvoiceLine> items;
 
-
 	private Id id;	
 
 	public void addItem(InvoiceLine item) {
