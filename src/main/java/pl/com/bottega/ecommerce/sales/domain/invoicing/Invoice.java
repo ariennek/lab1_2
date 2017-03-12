@@ -11,17 +11,10 @@ package pl.com.bottega.ecommerce.sales.domain.invoicing;
  
  public class Invoice  {
  
- 
- private ClientData client;
- 
- 
+	private ClientData client;
  	private Money net;
- 
  	private Money gros;
- 
  	private List<InvoiceLine> items;
- 
- 
  	private Id id;
  
  	Invoice(Id invoiceId, ClientData client) {
