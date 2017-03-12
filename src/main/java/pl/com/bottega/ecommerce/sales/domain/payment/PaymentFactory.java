@@ -6,10 +6,8 @@ package pl.com.bottega.ecommerce.sales.domain.payment;
  
  public class PaymentFactory {
  
- 	public Payment createPayment(ClientData clientData, Money amount) {
+ 	public Payment createPayment(ClientData clientData, Money money) {
  
- 		Id aggregateId = Id.generate();
- 
- 		return new Payment(aggregateId, clientData, amount);
+ 		return new Payment(Id.generate(), clientData, money);
  	}
  }

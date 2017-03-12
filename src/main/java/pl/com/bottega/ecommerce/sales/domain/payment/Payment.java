@@ -7,22 +7,19 @@ package pl.com.bottega.ecommerce.sales.domain.payment;
  public class Payment {
  
  	private ClientData clientData;
- 
- 	private Money amount;
- 
+ 	private Money money;
  	private PaymentFactory paymentFactory;
- 
  	private Id aggregateId;
  
  
- 	Payment(Id aggregateId, ClientData clientData, Money amount) {
+ 	Payment(Id aggregateId, ClientData clientData, Money money) {
  		this.aggregateId = aggregateId;
  		this.clientData = clientData;
- 		this.amount = amount;
+ 		this.money = money;
  	}
  
  	public Payment rollBack() {
  
- 		return paymentFactory.createPayment(clientData, amount.multiplyBy(-1));
+ 		return paymentFactory.createPayment(clientData, money.multiplyBy(-1));
  	}
  }
