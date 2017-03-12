@@ -29,7 +29,7 @@ public class BookKeeper {
 	public Invoice issuance(InvoiceRequest invoiceRequest, List<RequestItem> items) {
 		Invoice invoice = invoiceCreator.create(invoiceRequest.getClientData());
 
-		for (RequestItem item : items) {
+		for (RequestItem item : invoiceRequest.getItems()) {
 			Money net = item.getTotalCost();
 			BigDecimal ratio = null;
 			String desc = null;
