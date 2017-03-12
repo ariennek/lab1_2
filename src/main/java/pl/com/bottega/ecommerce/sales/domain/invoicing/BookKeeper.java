@@ -7,37 +7,19 @@ package pl.com.bottega.ecommerce.sales.domain.invoicing;
  public class BookKeeper {
  	
  	private InvoiceFactory iFactory;
+ 	private DefaultTaxPolicy dtPolicy;
  	
- 	public Invoice issuance(InvoiceRequest request) {
+	public Invoice issuance(InvoiceRequest request) {
+	 	return this.issuance(request, dtPolicy);
+	}
+ 	
+ 		public Invoice issuance(InvoiceRequest request, TaxPolicy tPolicy) {
  		Invoice invoice = iFactory.create(request.getClient());
  
  		for (RequestItem item : request.getItems()) {
  			Money net = item.getTotalCost();
- 			BigDecimal ratio = null;
- 			String desc = null;
  			
- 			switch (item.getProductData().getType()) {
- 			case DRUG:
- 				ratio = BigDecimal.valueOf(0.05);
- 				desc = "5% (D)";
- 				break;
- 			case FOOD:
- 				ratio = BigDecimal.valueOf(0.07);
- 				desc = "7% (F)";
- 				break;
- 			case STANDARD:
- 				ratio = BigDecimal.valueOf(0.23);
- 				desc = "23%";
- 				break;
- 				
- 			default:
- 				throw new IllegalArgumentException(item.getProductData().getType() + " not handled");
- 			}
- 					
- 			Money taxValue = net.multiplyBy(ratio);
- 			
- 			Tax tax = new Tax(taxValue, desc);
- 			
+ 			Tax tax = tPolicy.calculateTax(item.getProductData().getType(), net);
  
  			InvoiceLine invoiceLine = new InvoiceLine(item.getProductData(),
  					item.getQuantity(), net, tax);
@@ -46,5 +28,4 @@ package pl.com.bottega.ecommerce.sales.domain.invoicing;
  
  		return invoice;
  	}
- 
  }
