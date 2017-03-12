@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductType;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
-public class TaxCalculator {
+public class TaxCalculator implements TaxCalculatorInterface{
 	
 	public Tax calculate(ProductType productType, Money net){
 		BigDecimal ratio = null;
