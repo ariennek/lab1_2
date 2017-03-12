@@ -10,9 +10,8 @@ public class TaxCalculator {
 	public Tax calculate(ProductType productType, Money net){
 		BigDecimal ratio = null;
 		String desc = null;
-		RequestItem item = new RequestItem(null, 0, net);
 		
-		switch (item.getProductData().getType()) {
+		switch (productType) {
 		case DRUG:
 			ratio = BigDecimal.valueOf(0.05);
 			desc = "5% (D)";
@@ -27,7 +26,7 @@ public class TaxCalculator {
 			break;
 			
 		default:
-			throw new IllegalArgumentException(item.getProductData().getType() + " not handled");
+			throw new IllegalArgumentException(productType + " not handled");
 		}
 				
 		Money taxValue = net.multiplyBy(ratio);
