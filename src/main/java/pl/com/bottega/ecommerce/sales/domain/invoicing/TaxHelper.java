@@ -7,10 +7,9 @@ import java.math.BigDecimal;
 /**
  * Created by pebuls on 13.03.17.
  */
-public class TaxHelper {
+public class TaxHelper implements TaxPolicy {
 
-
-    public static Tax taxCalculator(RequestItem requestItem) {
+    public Tax taxCalculator(RequestItem requestItem) {
 
         Money net = requestItem.getTotalCost();
         BigDecimal ratio = null;
@@ -38,4 +37,5 @@ public class TaxHelper {
 
         return new Tax(taxValue, desc);
     }
+
 }
