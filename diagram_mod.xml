@@ -1,0 +1,602 @@
+bplist00Ñ_WebMainResourceÕ	
+_WebResourceFrameName^WebResourceURL_WebResourceData_WebResourceMIMEType_WebResourceTextEncodingNameP_Dblob:https://app.genmymodel.com/02eb6f7e-0409-4d4f-b6b0-3c55e0e18cebO±ß<?xml version="1.0" encoding="UTF-8"?><uml:Model xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:version="2.0" xmi:id="_UVG5IAhHEeeoBvzX9wJhsQ" name="model">
+  <eAnnotations xmi:id="_UVG5IQhHEeeoBvzX9wJhsQ" source="genmymodel">
+    <details xmi:id="_UVG5IghHEeeoBvzX9wJhsQ" key="uuid" value="_s5Nv0AhBEeeoBvzX9wJhsQ"/>
+    <details xmi:id="_UVG5IwhHEeeoBvzX9wJhsQ" key="author" value="jankowski.r"/>
+  </eAnnotations>
+  <packageImport xmi:id="_UVG5JAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5JQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5JghHEeeoBvzX9wJhsQ" key="uuid" value="_s5Nv0QhBEeeoBvzX9wJhsQ"/>
+    </eAnnotations>
+    <importedPackage href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#/"/>
+  </packageImport>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5JwhHEeeoBvzX9wJhsQ" name="ProductData">
+    <eAnnotations xmi:id="_UVG5KAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5KQhHEeeoBvzX9wJhsQ" key="uuid" value="_q7WeMOpvEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_UVG5KghHEeeoBvzX9wJhsQ" name="money" visibility="private" type="_UVG5MwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5KwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5LAhHEeeoBvzX9wJhsQ" key="uuid" value="_JwFhQOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_UVG5LQhHEeeoBvzX9wJhsQ" name="productType" visibility="private" type="_UVG5NghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5LghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5LwhHEeeoBvzX9wJhsQ" key="uuid" value="_NZmloOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_UVG5MAhHEeeoBvzX9wJhsQ" name="id" visibility="private" type="_UVG5OQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5MQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5MghHEeeoBvzX9wJhsQ" key="uuid" value="_m-D3UOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5MwhHEeeoBvzX9wJhsQ" name="Money">
+    <eAnnotations xmi:id="_UVG5NAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5NQhHEeeoBvzX9wJhsQ" key="uuid" value="_4vdHQOpvEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5NghHEeeoBvzX9wJhsQ" name="ProductType">
+    <eAnnotations xmi:id="_UVG5NwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5OAhHEeeoBvzX9wJhsQ" key="uuid" value="_5sYpkOpvEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5OQhHEeeoBvzX9wJhsQ" name="Id">
+    <eAnnotations xmi:id="_UVG5OghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5OwhHEeeoBvzX9wJhsQ" key="uuid" value="_7bfPsOpvEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5PAhHEeeoBvzX9wJhsQ" name="PaymentFactory">
+    <eAnnotations xmi:id="_UVG5PQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5PghHEeeoBvzX9wJhsQ" key="uuid" value="_8fylUOpvEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5PwhHEeeoBvzX9wJhsQ" name="ClientData">
+    <eAnnotations xmi:id="_UVG5QAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5QQhHEeeoBvzX9wJhsQ" key="uuid" value="__fw9cOpvEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5QghHEeeoBvzX9wJhsQ" name="Purchase">
+    <eAnnotations xmi:id="_UVG5QwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5RAhHEeeoBvzX9wJhsQ" key="uuid" value="_EAO38OpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5RQhHEeeoBvzX9wJhsQ" name="PurchaseItem">
+    <eAnnotations xmi:id="_UVG5RghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5RwhHEeeoBvzX9wJhsQ" key="uuid" value="_FgUKoOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5SAhHEeeoBvzX9wJhsQ" name="RequestItem">
+    <eAnnotations xmi:id="_UVG5SQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5SghHEeeoBvzX9wJhsQ" key="uuid" value="_HucPEOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5SwhHEeeoBvzX9wJhsQ" name="InvoiceFactory">
+    <eAnnotations xmi:id="_UVG5TAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5TQhHEeeoBvzX9wJhsQ" key="uuid" value="_KL9aYOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5TghHEeeoBvzX9wJhsQ" name="InvoiceRequest">
+    <eAnnotations xmi:id="_UVG5TwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5UAhHEeeoBvzX9wJhsQ" key="uuid" value="_MUraYOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5UQhHEeeoBvzX9wJhsQ" name="BookKeeper">
+    <eAnnotations xmi:id="_UVG5UghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5UwhHEeeoBvzX9wJhsQ" key="uuid" value="_OWW-QOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5VAhHEeeoBvzX9wJhsQ" name="InvoiceLine">
+    <eAnnotations xmi:id="_UVG5VQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5VghHEeeoBvzX9wJhsQ" key="uuid" value="_P32mMOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5VwhHEeeoBvzX9wJhsQ" name="Tax">
+    <eAnnotations xmi:id="_UVG5WAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5WQhHEeeoBvzX9wJhsQ" key="uuid" value="_RlArkOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5WghHEeeoBvzX9wJhsQ" name="TaxMeter">
+    <eAnnotations xmi:id="_UVG5WwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5XAhHEeeoBvzX9wJhsQ" key="uuid" value="_SajMcOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Class" xmi:id="_UVG5XQhHEeeoBvzX9wJhsQ" name="BookTax">
+    <eAnnotations xmi:id="_UVG5XghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5XwhHEeeoBvzX9wJhsQ" key="uuid" value="_UfPoEOpwEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5YAhHEeeoBvzX9wJhsQ" name="Money_ProductData" memberEnd="_UVG5YwhHEeeoBvzX9wJhsQ _UVG5aAhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5YwhHEeeoBvzX9wJhsQ _UVG5aAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5YQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5YghHEeeoBvzX9wJhsQ" key="uuid" value="_B7PE4upxEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5YwhHEeeoBvzX9wJhsQ" name="productData" type="_UVG5JwhHEeeoBvzX9wJhsQ" association="_UVG5YAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5ZAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5ZQhHEeeoBvzX9wJhsQ" key="uuid" value="_B7PE4OpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5ZghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5ZwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5aAhHEeeoBvzX9wJhsQ" name="money" type="_UVG5MwhHEeeoBvzX9wJhsQ" association="_UVG5YAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5aQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5aghHEeeoBvzX9wJhsQ" key="uuid" value="_B7PE4epxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5awhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5bAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5bQhHEeeoBvzX9wJhsQ" name="ProductType_ProductData" memberEnd="_UVG5cAhHEeeoBvzX9wJhsQ _UVG5dQhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5cAhHEeeoBvzX9wJhsQ _UVG5dQhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5bghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5bwhHEeeoBvzX9wJhsQ" key="uuid" value="_qznzoOpxEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5cAhHEeeoBvzX9wJhsQ" name="productData" type="_UVG5JwhHEeeoBvzX9wJhsQ" association="_UVG5bQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5cQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5cghHEeeoBvzX9wJhsQ" key="uuid" value="_qznMkOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5cwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5dAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5dQhHEeeoBvzX9wJhsQ" name="productType2" type="_UVG5NghHEeeoBvzX9wJhsQ" association="_UVG5bQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5dghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5dwhHEeeoBvzX9wJhsQ" key="uuid" value="_qznMkepxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5eAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5eQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5eghHEeeoBvzX9wJhsQ" name="Id_ProductData" memberEnd="_UVG5fQhHEeeoBvzX9wJhsQ _UVG5gghHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5fQhHEeeoBvzX9wJhsQ _UVG5gghHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5ewhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5fAhHEeeoBvzX9wJhsQ" key="uuid" value="_sD2FYupxEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5fQhHEeeoBvzX9wJhsQ" name="productData" type="_UVG5JwhHEeeoBvzX9wJhsQ" association="_UVG5eghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5fghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5fwhHEeeoBvzX9wJhsQ" key="uuid" value="_sD2FYOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5gAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5gQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5gghHEeeoBvzX9wJhsQ" name="id2" type="_UVG5OQhHEeeoBvzX9wJhsQ" association="_UVG5eghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5gwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5hAhHEeeoBvzX9wJhsQ" key="uuid" value="_sD2FYepxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5hQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5hghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5hwhHEeeoBvzX9wJhsQ" name="InvoiceLine_ProductData" memberEnd="_UVG5ighHEeeoBvzX9wJhsQ _UVG5jwhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5ighHEeeoBvzX9wJhsQ _UVG5jwhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5iAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5iQhHEeeoBvzX9wJhsQ" key="uuid" value="_0jhAYupxEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5ighHEeeoBvzX9wJhsQ" name="productData" type="_UVG5JwhHEeeoBvzX9wJhsQ" association="_UVG5hwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5iwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5jAhHEeeoBvzX9wJhsQ" key="uuid" value="_0jhAYOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5jQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5jghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5jwhHEeeoBvzX9wJhsQ" name="invoiceLine" type="_UVG5VAhHEeeoBvzX9wJhsQ" association="_UVG5hwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5kAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5kQhHEeeoBvzX9wJhsQ" key="uuid" value="_0jhAYepxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5kghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5kwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5lAhHEeeoBvzX9wJhsQ" name="RequestItem_ProductData" memberEnd="_UVG5lwhHEeeoBvzX9wJhsQ _UVG5nAhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5lwhHEeeoBvzX9wJhsQ _UVG5nAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5lQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5lghHEeeoBvzX9wJhsQ" key="uuid" value="_9grIoOpxEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5lwhHEeeoBvzX9wJhsQ" name="productData" type="_UVG5JwhHEeeoBvzX9wJhsQ" association="_UVG5lAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5mAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5mQhHEeeoBvzX9wJhsQ" key="uuid" value="_9gqhkOpxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5mghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5mwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5nAhHEeeoBvzX9wJhsQ" name="requestItem" type="_UVG5SAhHEeeoBvzX9wJhsQ" association="_UVG5lAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5nQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5nghHEeeoBvzX9wJhsQ" key="uuid" value="_9gqhkepxEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5nwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5oAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5oQhHEeeoBvzX9wJhsQ" name="PurchaseItem_ProductData" memberEnd="_UVG5pAhHEeeoBvzX9wJhsQ _UVG5qQhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5pAhHEeeoBvzX9wJhsQ _UVG5qQhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5oghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5owhHEeeoBvzX9wJhsQ" key="uuid" value="_CzPOcOpyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5pAhHEeeoBvzX9wJhsQ" name="productData" type="_UVG5JwhHEeeoBvzX9wJhsQ" association="_UVG5oQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5pQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5pghHEeeoBvzX9wJhsQ" key="uuid" value="_CzOnYOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5pwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5qAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5qQhHEeeoBvzX9wJhsQ" name="purchaseItem" type="_UVG5RQhHEeeoBvzX9wJhsQ" association="_UVG5oQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5qghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5qwhHEeeoBvzX9wJhsQ" key="uuid" value="_CzOnYepyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5rAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5rQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5rghHEeeoBvzX9wJhsQ" name="BookKeeper_TaxMeter" memberEnd="_UVG5sQhHEeeoBvzX9wJhsQ _UVG5tghHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5sQhHEeeoBvzX9wJhsQ _UVG5tghHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5rwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5sAhHEeeoBvzX9wJhsQ" key="uuid" value="_INjiEOpyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5sQhHEeeoBvzX9wJhsQ" name="taxMeter" type="_UVG5WghHEeeoBvzX9wJhsQ" association="_UVG5rghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5sghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5swhHEeeoBvzX9wJhsQ" key="uuid" value="_INi7AOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5tAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5tQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5tghHEeeoBvzX9wJhsQ" name="bookKeeper" type="_UVG5UQhHEeeoBvzX9wJhsQ" association="_UVG5rghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5twhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5uAhHEeeoBvzX9wJhsQ" key="uuid" value="_INi7AepyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5uQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5ughHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5uwhHEeeoBvzX9wJhsQ" name="Tax_TaxMeter" memberEnd="_UVG5vghHEeeoBvzX9wJhsQ _UVG5wwhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5vghHEeeoBvzX9wJhsQ _UVG5wwhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5vAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5vQhHEeeoBvzX9wJhsQ" key="uuid" value="_LVyeUepyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5vghHEeeoBvzX9wJhsQ" name="taxMeter" type="_UVG5WghHEeeoBvzX9wJhsQ" association="_UVG5uwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5vwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5wAhHEeeoBvzX9wJhsQ" key="uuid" value="_LVx3QOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5wQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5wghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG5wwhHEeeoBvzX9wJhsQ" name="tax" type="_UVG5VwhHEeeoBvzX9wJhsQ" association="_UVG5uwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5xAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5xQhHEeeoBvzX9wJhsQ" key="uuid" value="_LVyeUOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5xghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5xwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5yAhHEeeoBvzX9wJhsQ" name="TaxMeter_ProductType" memberEnd="_UVG5ywhHEeeoBvzX9wJhsQ _UVG50AhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5ywhHEeeoBvzX9wJhsQ _UVG50AhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5yQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5yghHEeeoBvzX9wJhsQ" key="uuid" value="_Voby0epyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5ywhHEeeoBvzX9wJhsQ" name="productType" type="_UVG5NghHEeeoBvzX9wJhsQ" association="_UVG5yAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5zAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5zQhHEeeoBvzX9wJhsQ" key="uuid" value="_VobLwOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5zghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5zwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG50AhHEeeoBvzX9wJhsQ" name="taxMeter" type="_UVG5WghHEeeoBvzX9wJhsQ" association="_UVG5yAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG50QhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG50ghHEeeoBvzX9wJhsQ" key="uuid" value="_Voby0OpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG50whHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG51AhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG51QhHEeeoBvzX9wJhsQ" name="BookTax_ProductType" memberEnd="_UVG52AhHEeeoBvzX9wJhsQ _UVG53QhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG52AhHEeeoBvzX9wJhsQ _UVG53QhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG51ghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG51whHEeeoBvzX9wJhsQ" key="uuid" value="_ZlZ-sepyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG52AhHEeeoBvzX9wJhsQ" name="productType" type="_UVG5NghHEeeoBvzX9wJhsQ" association="_UVG51QhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG52QhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG52ghHEeeoBvzX9wJhsQ" key="uuid" value="_ZlZXoOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG52whHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG53AhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG53QhHEeeoBvzX9wJhsQ" name="bookTax" type="_UVG5XQhHEeeoBvzX9wJhsQ" association="_UVG51QhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG53ghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG53whHEeeoBvzX9wJhsQ" key="uuid" value="_ZlZ-sOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG54AhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG54QhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG54ghHEeeoBvzX9wJhsQ" name="ClientData_Id" memberEnd="_UVG55QhHEeeoBvzX9wJhsQ _UVG56ghHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG55QhHEeeoBvzX9wJhsQ _UVG56ghHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG54whHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG55AhHEeeoBvzX9wJhsQ" key="uuid" value="_ggndUupyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG55QhHEeeoBvzX9wJhsQ" name="id" type="_UVG5OQhHEeeoBvzX9wJhsQ" association="_UVG54ghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG55ghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG55whHEeeoBvzX9wJhsQ" key="uuid" value="_ggndUOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG56AhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG56QhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG56ghHEeeoBvzX9wJhsQ" name="clientData" type="_UVG5PwhHEeeoBvzX9wJhsQ" association="_UVG54ghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG56whHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG57AhHEeeoBvzX9wJhsQ" key="uuid" value="_ggndUepyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG57QhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG57ghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG57whHEeeoBvzX9wJhsQ" name="Purchase_ClientData" memberEnd="_UVG58ghHEeeoBvzX9wJhsQ _UVG59whHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG58ghHEeeoBvzX9wJhsQ _UVG59whHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG58AhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG58QhHEeeoBvzX9wJhsQ" key="uuid" value="_mTrBEupyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG58ghHEeeoBvzX9wJhsQ" name="clientData" type="_UVG5PwhHEeeoBvzX9wJhsQ" association="_UVG57whHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG58whHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG59AhHEeeoBvzX9wJhsQ" key="uuid" value="_mTrBEOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG59QhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG59ghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG59whHEeeoBvzX9wJhsQ" name="purchase" type="_UVG5QghHEeeoBvzX9wJhsQ" association="_UVG57whHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG5-AhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG5-QhHEeeoBvzX9wJhsQ" key="uuid" value="_mTrBEepyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG5-ghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG5-whHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG5_AhHEeeoBvzX9wJhsQ" name="PaymentFactory_ClientData" memberEnd="_UVG5_whHEeeoBvzX9wJhsQ _UVG6BAhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG5_whHEeeoBvzX9wJhsQ _UVG6BAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG5_QhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG5_ghHEeeoBvzX9wJhsQ" key="uuid" value="_s8r8cepyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG5_whHEeeoBvzX9wJhsQ" name="clientData" type="_UVG5PwhHEeeoBvzX9wJhsQ" association="_UVG5_AhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG6AAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG6AQhHEeeoBvzX9wJhsQ" key="uuid" value="_s8rVYOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG6AghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG6AwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG6BAhHEeeoBvzX9wJhsQ" name="paymentFactory" type="_UVG5PAhHEeeoBvzX9wJhsQ" association="_UVG5_AhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG6BQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG6BghHEeeoBvzX9wJhsQ" key="uuid" value="_s8r8cOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG6BwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG6CAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVG6CQhHEeeoBvzX9wJhsQ" name="InvoiceFactory_ClientData" memberEnd="_UVG6DAhHEeeoBvzX9wJhsQ _UVG6EQhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVG6DAhHEeeoBvzX9wJhsQ _UVG6EQhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVG6CghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVG6CwhHEeeoBvzX9wJhsQ" key="uuid" value="_yl5AoepyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVG6DAhHEeeoBvzX9wJhsQ" name="clientData" type="_UVG5PwhHEeeoBvzX9wJhsQ" association="_UVG6CQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG6DQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG6DghHEeeoBvzX9wJhsQ" key="uuid" value="_yl4ZkOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG6DwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVG6EAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVG6EQhHEeeoBvzX9wJhsQ" name="invoiceFactory" type="_UVG5SwhHEeeoBvzX9wJhsQ" association="_UVG6CQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVG6EghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVG6EwhHEeeoBvzX9wJhsQ" key="uuid" value="_yl5AoOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVG6FAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgMAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgMQhHEeeoBvzX9wJhsQ" name="InvoiceRequest_ClientData" memberEnd="_UVHgNAhHEeeoBvzX9wJhsQ _UVHgOQhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgNAhHEeeoBvzX9wJhsQ _UVHgOQhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgMghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgMwhHEeeoBvzX9wJhsQ" key="uuid" value="_zPO4kupyEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgNAhHEeeoBvzX9wJhsQ" name="clientData" type="_UVG5PwhHEeeoBvzX9wJhsQ" association="_UVHgMQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgNQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgNghHEeeoBvzX9wJhsQ" key="uuid" value="_zPO4kOpyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgNwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgOAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgOQhHEeeoBvzX9wJhsQ" name="invoiceRequest" type="_UVG5TghHEeeoBvzX9wJhsQ" association="_UVHgMQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgOghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgOwhHEeeoBvzX9wJhsQ" key="uuid" value="_zPO4kepyEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgPAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgPQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgPghHEeeoBvzX9wJhsQ" name="Id_BookKeeper" memberEnd="_UVHgQQhHEeeoBvzX9wJhsQ _UVHgRghHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgQQhHEeeoBvzX9wJhsQ _UVHgRghHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgPwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgQAhHEeeoBvzX9wJhsQ" key="uuid" value="_MQIxQepzEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgQQhHEeeoBvzX9wJhsQ" name="bookKeeper" type="_UVG5UQhHEeeoBvzX9wJhsQ" association="_UVHgPghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgQghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgQwhHEeeoBvzX9wJhsQ" key="uuid" value="_MQIKMOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgRAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgRQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgRghHEeeoBvzX9wJhsQ" name="id" type="_UVG5OQhHEeeoBvzX9wJhsQ" association="_UVHgPghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgRwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgSAhHEeeoBvzX9wJhsQ" key="uuid" value="_MQIxQOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgSQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgSghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgSwhHEeeoBvzX9wJhsQ" name="InvoiceFactory_Id" memberEnd="_UVHgTghHEeeoBvzX9wJhsQ _UVHgUwhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgTghHEeeoBvzX9wJhsQ _UVHgUwhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgTAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgTQhHEeeoBvzX9wJhsQ" key="uuid" value="_fToQUepzEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgTghHEeeoBvzX9wJhsQ" name="id" type="_UVG5OQhHEeeoBvzX9wJhsQ" association="_UVHgSwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgTwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgUAhHEeeoBvzX9wJhsQ" key="uuid" value="_fTnpQOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgUQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgUghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgUwhHEeeoBvzX9wJhsQ" name="invoiceFactory" type="_UVG5SwhHEeeoBvzX9wJhsQ" association="_UVHgSwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgVAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgVQhHEeeoBvzX9wJhsQ" key="uuid" value="_fToQUOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgVghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgVwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgWAhHEeeoBvzX9wJhsQ" name="PaymentFactory_Id" memberEnd="_UVHgWwhHEeeoBvzX9wJhsQ _UVHgYAhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgWwhHEeeoBvzX9wJhsQ _UVHgYAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgWQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgWghHEeeoBvzX9wJhsQ" key="uuid" value="_ks3l4OpzEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgWwhHEeeoBvzX9wJhsQ" name="id" type="_UVG5OQhHEeeoBvzX9wJhsQ" association="_UVHgWAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgXAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgXQhHEeeoBvzX9wJhsQ" key="uuid" value="_ks2-0OpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgXghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgXwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgYAhHEeeoBvzX9wJhsQ" name="paymentFactory" type="_UVG5PAhHEeeoBvzX9wJhsQ" association="_UVHgWAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgYQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgYghHEeeoBvzX9wJhsQ" key="uuid" value="_ks2-0epzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgYwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgZAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgZQhHEeeoBvzX9wJhsQ" name="Purchase_Id" memberEnd="_UVHgaAhHEeeoBvzX9wJhsQ _UVHgbQhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgaAhHEeeoBvzX9wJhsQ _UVHgbQhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgZghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgZwhHEeeoBvzX9wJhsQ" key="uuid" value="_qGEfMepzEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgaAhHEeeoBvzX9wJhsQ" name="id" type="_UVG5OQhHEeeoBvzX9wJhsQ" association="_UVHgZQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgaQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgaghHEeeoBvzX9wJhsQ" key="uuid" value="_qGD4IOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgawhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgbAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgbQhHEeeoBvzX9wJhsQ" name="purchase" type="_UVG5QghHEeeoBvzX9wJhsQ" association="_UVHgZQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgbghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgbwhHEeeoBvzX9wJhsQ" key="uuid" value="_qGEfMOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgcAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgcQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgcghHEeeoBvzX9wJhsQ" name="BookKeeper_InvoiceRequest" memberEnd="_UVHgdQhHEeeoBvzX9wJhsQ _UVHgeghHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgdQhHEeeoBvzX9wJhsQ _UVHgeghHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgcwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgdAhHEeeoBvzX9wJhsQ" key="uuid" value="_0PrMcepzEDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgdQhHEeeoBvzX9wJhsQ" name="invoiceRequest" type="_UVG5TghHEeeoBvzX9wJhsQ" association="_UVHgcghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgdghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgdwhHEeeoBvzX9wJhsQ" key="uuid" value="_0PqlYOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgeAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgeQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgeghHEeeoBvzX9wJhsQ" name="bookKeeper" type="_UVG5UQhHEeeoBvzX9wJhsQ" association="_UVHgcghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgewhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgfAhHEeeoBvzX9wJhsQ" key="uuid" value="_0PrMcOpzEDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgfQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgfghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgfwhHEeeoBvzX9wJhsQ" name="InvoiceLine_InvoiceFactory" memberEnd="_UVHggghHEeeoBvzX9wJhsQ _UVHghwhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHggghHEeeoBvzX9wJhsQ _UVHghwhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHggAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHggQhHEeeoBvzX9wJhsQ" key="uuid" value="_Co4tsup0EDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHggghHEeeoBvzX9wJhsQ" name="invoiceFactory" type="_UVG5SwhHEeeoBvzX9wJhsQ" aggregation="shared" association="_UVHgfwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHggwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHghAhHEeeoBvzX9wJhsQ" key="uuid" value="_Co4tsOp0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHghQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHghghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHghwhHEeeoBvzX9wJhsQ" name="invoiceLine" type="_UVG5VAhHEeeoBvzX9wJhsQ" association="_UVHgfwhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgiAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgiQhHEeeoBvzX9wJhsQ" key="uuid" value="_Co4tsep0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgighHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgiwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgjAhHEeeoBvzX9wJhsQ" name="Money_InvoiceFactory" memberEnd="_UVHgjwhHEeeoBvzX9wJhsQ _UVHglAhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgjwhHEeeoBvzX9wJhsQ _UVHglAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgjQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgjghHEeeoBvzX9wJhsQ" key="uuid" value="_ItTuQup0EDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgjwhHEeeoBvzX9wJhsQ" name="invoiceFactory" type="_UVG5SwhHEeeoBvzX9wJhsQ" association="_UVHgjAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgkAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgkQhHEeeoBvzX9wJhsQ" key="uuid" value="_ItTuQOp0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgkghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgkwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHglAhHEeeoBvzX9wJhsQ" name="money" type="_UVG5MwhHEeeoBvzX9wJhsQ" association="_UVHgjAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHglQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHglghHEeeoBvzX9wJhsQ" key="uuid" value="_ItTuQep0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHglwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgmAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgmQhHEeeoBvzX9wJhsQ" name="RequestItem_InvoiceRequest" memberEnd="_UVHgnAhHEeeoBvzX9wJhsQ _UVHgoQhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgnAhHEeeoBvzX9wJhsQ _UVHgoQhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgmghHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgmwhHEeeoBvzX9wJhsQ" key="uuid" value="_QZk2YOp0EDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgnAhHEeeoBvzX9wJhsQ" name="invoiceRequest" type="_UVG5TghHEeeoBvzX9wJhsQ" aggregation="shared" association="_UVHgmQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgnQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgnghHEeeoBvzX9wJhsQ" key="uuid" value="_QZkPUOp0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgnwhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgoAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgoQhHEeeoBvzX9wJhsQ" name="requestItem" type="_UVG5SAhHEeeoBvzX9wJhsQ" association="_UVHgmQhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgoghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgowhHEeeoBvzX9wJhsQ" key="uuid" value="_QZkPUep0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgpAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgpQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgpghHEeeoBvzX9wJhsQ" name="InvoiceRequest_ClientData2" memberEnd="_UVHgqQhHEeeoBvzX9wJhsQ _UVHgrghHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgqQhHEeeoBvzX9wJhsQ _UVHgrghHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgpwhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgqAhHEeeoBvzX9wJhsQ" key="uuid" value="_VTrY4Op0EDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgqQhHEeeoBvzX9wJhsQ" name="clientData" type="_UVG5PwhHEeeoBvzX9wJhsQ" association="_UVHgpghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgqghHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgqwhHEeeoBvzX9wJhsQ" key="uuid" value="_VTqx0Op0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgrAhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgrQhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgrghHEeeoBvzX9wJhsQ" name="invoiceRequest" type="_UVG5TghHEeeoBvzX9wJhsQ" association="_UVHgpghHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgrwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgsAhHEeeoBvzX9wJhsQ" key="uuid" value="_VTqx0ep0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgsQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgsghHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgswhHEeeoBvzX9wJhsQ" name="RequestItem_Money" memberEnd="_UVHgtghHEeeoBvzX9wJhsQ _UVHguwhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgtghHEeeoBvzX9wJhsQ _UVHguwhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgtAhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgtQhHEeeoBvzX9wJhsQ" key="uuid" value="_pQuWIOp0EDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgtghHEeeoBvzX9wJhsQ" name="money" type="_UVG5MwhHEeeoBvzX9wJhsQ" association="_UVHgswhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgtwhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHguAhHEeeoBvzX9wJhsQ" key="uuid" value="_pQtvEOp0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHguQhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgughHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHguwhHEeeoBvzX9wJhsQ" name="requestItem" type="_UVG5SAhHEeeoBvzX9wJhsQ" association="_UVHgswhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgvAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgvQhHEeeoBvzX9wJhsQ" key="uuid" value="_pQtvEep0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgvghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgvwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xsi:type="uml:Association" xmi:id="_UVHgwAhHEeeoBvzX9wJhsQ" name="PaymentFactory_Money" memberEnd="_UVHgwwhHEeeoBvzX9wJhsQ _UVHgyAhHEeeoBvzX9wJhsQ" navigableOwnedEnd="_UVHgwwhHEeeoBvzX9wJhsQ _UVHgyAhHEeeoBvzX9wJhsQ">
+    <eAnnotations xmi:id="_UVHgwQhHEeeoBvzX9wJhsQ" source="genmymodel">
+      <details xmi:id="_UVHgwghHEeeoBvzX9wJhsQ" key="uuid" value="_2pdR0up0EDS0xaaRWB0NzA"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_UVHgwwhHEeeoBvzX9wJhsQ" name="money" type="_UVG5MwhHEeeoBvzX9wJhsQ" association="_UVHgwAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgxAhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgxQhHEeeoBvzX9wJhsQ" key="uuid" value="_2pdR0Op0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgxghHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgxwhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UVHgyAhHEeeoBvzX9wJhsQ" name="paymentFactory" type="_UVG5PAhHEeeoBvzX9wJhsQ" association="_UVHgwAhHEeeoBvzX9wJhsQ">
+      <eAnnotations xmi:id="_UVHgyQhHEeeoBvzX9wJhsQ" source="genmymodel">
+        <details xmi:id="_UVHgyghHEeeoBvzX9wJhsQ" key="uuid" value="_2pdR0ep0EDS0xaaRWB0NzA"/>
+      </eAnnotations>
+      <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_UVHgywhHEeeoBvzX9wJhsQ"/>
+      <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_UVHgzAhHEeeoBvzX9wJhsQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>_application/xmlUUTF-8    ( ? N ` v ” • Ü²¿²Ñ                           ²×
