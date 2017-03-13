@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pl.com.bottega.ecommerce</OriginalElement>
+  <nodes>
+    <node x="0.0" y="121.0">pl.com.bottega.ecommerce.sales.domain.invoicing.TaxPolicy</node>
+    <node x="492.6041666666667" y="212.0">pl.com.bottega.ecommerce.sales.domain.purchase.PurchaseItem</node>
+    <node x="353.6041666666667" y="212.0">pl.com.bottega.ecommerce.sales.domain.invoicing.RequestItem</node>
+    <node x="248.77647058823538" y="0.0">pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductType</node>
+    <node x="393.25735294117646" y="343.0">pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceRequest</node>
+    <node x="774.4464460784314" y="343.0">pl.com.bottega.ecommerce.sales.domain.payment.Payment</node>
+    <node x="755.819730392157" y="0.0">pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id</node>
+    <node x="387.7764705882354" y="0.0">pl.com.bottega.ecommerce.sharedkernel.Money</node>
+    <node x="317.8541666666667" y="121.0">pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData</node>
+    <node x="160.0" y="212.0">pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceLine</node>
+    <node x="38.0" y="212.0">pl.com.bottega.ecommerce.sales.domain.invoicing.TaxHelper</node>
+    <node x="292.25735294117646" y="343.0">pl.com.bottega.ecommerce.sales.domain.invoicing.Invoice</node>
+    <node x="636.8214460784314" y="343.0">pl.com.bottega.ecommerce.sales.domain.purchase.Purchase</node>
+    <node x="831.4240196078431" y="212.0">pl.com.bottega.ecommerce.sales.domain.payment.PaymentFactory</node>
+    <node x="676.4240196078431" y="212.0">pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData</node>
+    <node x="118.41666666666669" y="121.0">pl.com.bottega.ecommerce.sales.domain.invoicing.Tax</node>
+    <node x="266.75735294117646" y="424.0">pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceFactory</node>
+    <node x="129.5" y="343.0">pl.com.bottega.ecommerce.sales.domain.invoicing.BookKeeper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.payment.Payment" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData">
+      <point x="-36.799999999999955" y="-15.5" />
+      <point x="783.6464460784315" y="313.0" />
+      <point x="768.2990196078431" y="313.0" />
+      <point x="39.375" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.purchase.Purchase" target="pl.com.bottega.ecommerce.sales.domain.purchase.PurchaseItem">
+      <point x="-35.625" y="-15.5" />
+      <point x="648.6964460784314" y="273.0" />
+      <point x="555.6041666666667" y="273.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.payment.Payment" target="pl.com.bottega.ecommerce.sales.domain.payment.PaymentFactory">
+      <point x="18.399999999999977" y="-15.5" />
+      <point x="838.8464460784314" y="313.0" />
+      <point x="867.1740196078431" y="313.0" />
+      <point x="-35.75" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.payment.Payment" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id">
+      <point x="0.0" y="-15.5" />
+      <point x="820.9240196078431" y="91.0" />
+      <point x="796.319730392157" y="91.0" />
+      <point x="18.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceFactory" target="pl.com.bottega.ecommerce.sales.domain.invoicing.Invoice">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.RequestItem" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="29.75" y="-15.5" />
+      <point x="442.8541666666667" y="192.0" />
+      <point x="454.7916666666667" y="192.0" />
+      <point x="454.7916666666667" y="91.0" />
+      <point x="431.6514705882354" y="91.0" />
+      <point x="4.875" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.TaxHelper" target="pl.com.bottega.ecommerce.sales.domain.invoicing.Tax">
+      <point x="25.5" y="-15.5" />
+      <point x="114.5" y="192.0" />
+      <point x="132.41666666666669" y="192.0" />
+      <point x="-14.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="0.0" y="-15.5" />
+      <point x="377.8541666666667" y="91.0" />
+      <point x="421.9014705882354" y="91.0" />
+      <point x="-4.875" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.purchase.Purchase" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="-11.875" y="-15.5" />
+      <point x="672.4464460784314" y="263.0" />
+      <point x="629.1041666666667" y="263.0" />
+      <point x="629.1041666666667" y="71.0" />
+      <point x="451.1514705882354" y="71.0" />
+      <point x="24.375" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceRequest" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData">
+      <point x="45.66666666666666" y="-15.5" />
+      <point x="507.4240196078431" y="303.0" />
+      <point x="715.7990196078431" y="303.0" />
+      <point x="-13.125" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceLine" target="pl.com.bottega.ecommerce.sales.domain.invoicing.Tax">
+      <point x="-36.66666666666666" y="-15.5" />
+      <point x="178.33333333333337" y="192.0" />
+      <point x="160.41666666666669" y="192.0" />
+      <point x="14.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceRequest" target="pl.com.bottega.ecommerce.sales.domain.invoicing.RequestItem">
+      <point x="-45.66666666666666" y="-15.5" />
+      <point x="416.09068627450984" y="273.0" />
+      <point x="383.3541666666667" y="273.0" />
+      <point x="-29.75" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id">
+      <point x="0.0" y="-15.5" />
+      <point x="728.9240196078431" y="192.0" />
+      <point x="778.319730392157" y="192.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.purchase.Purchase" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData">
+      <point x="11.875" y="-15.5" />
+      <point x="696.1964460784314" y="313.0" />
+      <point x="742.0490196078431" y="313.0" />
+      <point x="13.125" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.TaxHelper" target="pl.com.bottega.ecommerce.sales.domain.invoicing.TaxPolicy">
+      <point x="-25.5" y="-15.5" />
+      <point x="63.5" y="192.0" />
+      <point x="48.0" y="192.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceLine" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="0.0" y="-15.5" />
+      <point x="215.0" y="192.0" />
+      <point x="208.91666666666669" y="192.0" />
+      <point x="208.91666666666669" y="71.0" />
+      <point x="402.4014705882354" y="71.0" />
+      <point x="-24.375" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceLine" target="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData">
+      <point x="36.66666666666666" y="-15.5" />
+      <point x="251.66666666666663" y="192.0" />
+      <point x="337.8541666666667" y="192.0" />
+      <point x="-40.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.Invoice" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData">
+      <point x="30.375" y="-15.5" />
+      <point x="363.13235294117646" y="293.0" />
+      <point x="689.5490196078431" y="293.0" />
+      <point x="-39.375" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.BookKeeper" target="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceLine">
+      <point x="0.0" y="-15.5" />
+      <point x="-27.5" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData" target="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductType">
+      <point x="-40.0" y="-15.5" />
+      <point x="337.8541666666667" y="51.0" />
+      <point x="308.2764705882354" y="51.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.payment.PaymentFactory" target="pl.com.bottega.ecommerce.sales.domain.payment.Payment">
+      <point x="35.75" y="15.5" />
+      <point x="938.6740196078431" y="323.0" />
+      <point x="857.2464460784314" y="323.0" />
+      <point x="36.799999999999955" y="-15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id">
+      <point x="40.0" y="-15.5" />
+      <point x="417.8541666666667" y="101.0" />
+      <point x="760.319730392157" y="101.0" />
+      <point x="-18.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.Invoice" target="pl.com.bottega.ecommerce.sales.domain.invoicing.InvoiceLine">
+      <point x="-30.375" y="-15.5" />
+      <point x="302.38235294117646" y="323.0" />
+      <point x="242.5" y="323.0" />
+      <point x="27.5" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.Invoice" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id">
+      <point x="10.125" y="-15.5" />
+      <point x="342.88235294117646" y="283.0" />
+      <point x="640.1041666666667" y="283.0" />
+      <point x="640.1041666666667" y="182.0" />
+      <point x="769.319730392157" y="182.0" />
+      <point x="-9.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.Tax" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="0.0" y="-15.5" />
+      <point x="146.41666666666669" y="61.0" />
+      <point x="392.6514705882354" y="61.0" />
+      <point x="-34.125" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.Invoice" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="-10.125" y="-15.5" />
+      <point x="322.63235294117646" y="313.0" />
+      <point x="295.875" y="313.0" />
+      <point x="295.875" y="81.0" />
+      <point x="412.1514705882354" y="81.0" />
+      <point x="-14.625" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.invoicing.RequestItem" target="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData">
+      <point x="-29.75" y="-15.5" />
+      <point x="383.3541666666667" y="192.0" />
+      <point x="377.8541666666667" y="192.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.purchase.Purchase" target="pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id">
+      <point x="35.625" y="-15.5" />
+      <point x="719.9464460784314" y="323.0" />
+      <point x="811.9240196078431" y="323.0" />
+      <point x="811.9240196078431" y="101.0" />
+      <point x="787.319730392157" y="101.0" />
+      <point x="9.0" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.payment.Payment" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="-18.399999999999977" y="-15.5" />
+      <point x="802.0464460784315" y="313.0" />
+      <point x="791.9240196078431" y="313.0" />
+      <point x="791.9240196078431" y="172.0" />
+      <point x="744.632230392157" y="172.0" />
+      <point x="744.632230392157" y="61.0" />
+      <point x="460.9014705882354" y="61.0" />
+      <point x="34.125" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.purchase.PurchaseItem" target="pl.com.bottega.ecommerce.sharedkernel.Money">
+      <point x="31.5" y="-15.5" />
+      <point x="587.1041666666667" y="81.0" />
+      <point x="441.4014705882354" y="81.0" />
+      <point x="14.625" y="15.5" />
+    </edge>
+    <edge source="pl.com.bottega.ecommerce.sales.domain.purchase.PurchaseItem" target="pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData">
+      <point x="-31.5" y="-15.5" />
+      <point x="524.1041666666667" y="182.0" />
+      <point x="417.8541666666667" y="182.0" />
+      <point x="40.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="231.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
