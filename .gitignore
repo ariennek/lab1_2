@@ -1,4 +1,6 @@
 /target/
 /.classpath
 /.project
-/.settings/
+/.settings
+/lab1_2.iml
+/.idea/
