@@ -18,9 +18,10 @@ import pl.com.bottega.ecommerce.sharedkernel.Money;
  */
 public class InvoiceFactory {
     
-    public static Invoice getInstance(Id invoiceId, ClientData client) {
-        return new Invoicing(invoiceId, client);
+    public static Invoice getInstance(InvoiceRequest request) {
+        return new Invoicing(Id.generate(), request.getClientData());
     }
+    
     private static class Invoicing implements Invoice {
 
 
