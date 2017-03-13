@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * To change this license header, choose License Headers in Project Properties. To change this template file, choose
+ * Tools | Templates and open the template in the editor.
  */
 package pl.com.bottega.ecommerce.sales.domain.invoicing;
 
@@ -17,63 +16,59 @@ import pl.com.bottega.ecommerce.sharedkernel.Money;
  * @author jankowskirobert
  */
 public class InvoiceFactory {
-    
+
     public static Invoice getInstance(InvoiceRequest request) {
         return new Invoicing(Id.generate(), request.getClientData());
     }
-    
+
     private static class Invoicing implements Invoice {
 
+        private ClientData client;
 
-	private ClientData client;
+        private Money net;
 
+        private Money gros;
 
-	private Money net;
+        private List<InvoiceLine> items;
 
-	private Money gros;
+        private Id id;
 
-	private List<InvoiceLine> items;
+        private Invoicing(Id invoiceId, ClientData client) {
+            this.id = invoiceId;
+            this.client = client;
+            this.items = new ArrayList<InvoiceLine>();
 
+            this.net = Money.ZERO;
+            this.gros = Money.ZERO;
+        }
 
-	private Id id;
+        public void addItem(InvoiceLine item) {
+            items.add(item);
 
-	private Invoicing(Id invoiceId, ClientData client) {
-		this.id = invoiceId;
-		this.client = client;
-		this.items = new ArrayList<InvoiceLine>();
-		
-		this.net = Money.ZERO;
-		this.gros = Money.ZERO;
-	}
-	
+            net = net.add(item.getNet());
+            gros = gros.add(item.getGros());
+        }
 
-	public void addItem(InvoiceLine item) {
-		items.add(item);
+        /**
+         * 
+         * @return immutable projection
+         */
+        public List<InvoiceLine> getItems() {
+            return Collections.unmodifiableList(items);
+        }
 
-		net = net.add(item.getNet());
-		gros = gros.add(item.getGros());
-	}
+        public ClientData getClient() {
+            return client;
+        }
 
-	/**
-	 * 
-	 * @return immutable projection
-	 */
-	public List<InvoiceLine> getItems() {
-		return Collections.unmodifiableList(items);
-	}
+        public Money getNet() {
+            return net;
+        }
 
-	public ClientData getClient() {
-		return client;
-	}
+        public Money getGros() {
+            return gros;
+        }
 
-	public Money getNet() {
-		return net;
-	}
-
-	public Money getGros() {
-		return gros;
-	}
-
-}
+    }
 
 }

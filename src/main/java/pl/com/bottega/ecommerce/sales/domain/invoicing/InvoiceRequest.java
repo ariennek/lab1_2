@@ -8,22 +8,23 @@ import java.util.List;
 import pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData;
 
 public class InvoiceRequest {
-	private ClientData client;	
-	private List<RequestItem> items = new ArrayList<RequestItem>();
-	
-	public InvoiceRequest(ClientData client){
-		this.client = client;
-	}
-	
-	public void add(RequestItem item){
-		items.add(item);
-	}
 
-	public Collection<RequestItem> getItems() {
-		return Collections.unmodifiableCollection(items);
-	}
+    private ClientData client;
+    private List<RequestItem> items = new ArrayList<RequestItem>();
 
-	public ClientData getClientData() {
-		return client;
-	}
+    public InvoiceRequest(ClientData client) {
+        this.client = client;
+    }
+
+    public void add(RequestItem item) {
+        items.add(item);
+    }
+
+    public Collection<RequestItem> getItems() {
+        return Collections.unmodifiableCollection(items);
+    }
+
+    public ClientData getClientData() {
+        return client;
+    }
 }
