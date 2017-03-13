@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11526d2-bf66-4634-adca-743ef6a03ba8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/bottega/ecommerce/sales/domain/invoicing/BookKeeper.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/bottega/ecommerce/sales/domain/invoicing/BookKeeper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lab1_2_uml2.png" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,13 +100,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookKeeper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookKeeper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/bottega/ecommerce/sales/domain/invoicing/BookKeeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lab1_2_uml2.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab1_2_uml2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -710,12 +717,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489448628199</updated>
-      <workItem from="1489448632283" duration="825000" />
+      <workItem from="1489448632283" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="825000" />
+    <option name="totallyTimeSpent" value="887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
@@ -829,10 +836,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/bottega/ecommerce/sales/domain/invoicing/BookKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="405">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1_2_uml2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
