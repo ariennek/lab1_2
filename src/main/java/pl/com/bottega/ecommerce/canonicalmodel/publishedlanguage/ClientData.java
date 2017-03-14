@@ -38,5 +38,4 @@ public class ClientData {
 	public String getName() {
 		return name;
 	}
-
 }
