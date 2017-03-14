@@ -20,47 +20,57 @@ import java.util.List;
 
 import pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.ClientData;
 import pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id;
+import pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductType;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
 public class BookKeeper {
-
-	public Invoice issuance(ClientData client, List<RequestItem> items) {
-		Invoice invoice = new Invoice(Id.generate(), client);
-
-		for (RequestItem item : items) {
-			Money net = item.getTotalCost();
-			BigDecimal ratio = null;
-			String desc = null;
-			
-			switch (item.getProductData().getType()) {
-			case DRUG:
-				ratio = BigDecimal.valueOf(0.05);
-				desc = "5% (D)";
-				break;
-			case FOOD:
-				ratio = BigDecimal.valueOf(0.07);
-				desc = "7% (F)";
-				break;
-			case STANDARD:
-				ratio = BigDecimal.valueOf(0.23);
-				desc = "23%";
-				break;
+	
+	InvoiceFactory invoiceFactory;
+	
+	
+	public Invoice issuance(InvoiceRequest invoiceRequest) {	
+	
+		Invoice invoice = invoiceFactory.create(Id.generate(), invoiceRequest.getClient());
 				
-			default:
-				throw new IllegalArgumentException(item.getProductData().getType() + " not handled");
-			}
-					
-			Money taxValue = net.multiplyBy(ratio);
-			
-			Tax tax = new Tax(taxValue, desc);
-			
 
+		for (RequestItem item : invoiceRequest.getItems()) {
+			
+			Money net = item.getTotalCost();
+			
+			
+			taxCreator creator;
+			ProductType pType = item.getProductData().getType();
+			
+			Tax tax = taxCalc(pType, net);
 			InvoiceLine invoiceLine = new InvoiceLine(item.getProductData(),
 					item.getQuantity(), net, tax);
 			invoice.addItem(invoiceLine);
 		}
 
 		return invoice;
+	}
+
+
+	private Tax taxCalc(ProductType pType, Money net) {
+		
+		taxCreator creator;
+		
+		switch (pType) {
+		case DRUG:				
+			creator = new taxCreatorDrugs();
+			break;
+		case FOOD:
+			creator = new taxCreatorFood();
+			break;
+		case STANDARD:
+			creator = new taxCreatorStandard();
+			break;
+			
+		default:
+			throw new IllegalArgumentException(pType + " not handled");
+		}
+		
+		return creator.create(net);
 	}
 
 }
