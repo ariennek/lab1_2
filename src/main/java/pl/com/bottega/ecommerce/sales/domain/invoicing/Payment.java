@@ -8,8 +8,7 @@ package pl.com.bottega.ecommerce.sales.domain.invoicing;
  *
  * @author jankowskirobert
  */
-public interface Invoice {
+public interface Payment {
 
-    public void addItem(InvoiceLine invoiceLine);
-
+    public Payment rollBack();
 }
