@@ -7,9 +7,9 @@ import pl.com.bottega.ecommerce.sharedkernel.Money;
 /**
  * Created by Krzysztof Zimny on 3/19/2017.
  */
-public class PaymentFactory {
+public class PaymentFactory implements PaymentFactoryInterface {
 
-    public static Payment createPayment(ClientData clientData, Money money) {
+    public Payment createPayment(ClientData clientData, Money money) {
         Id id = Id.generate();
         return new Payment(id, clientData, money);
     }
