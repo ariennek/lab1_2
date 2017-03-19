@@ -10,6 +10,15 @@ import java.math.BigDecimal;
  */
 public class TaxCalculaton implements TaxCalculationInterface {
 
+    private static final BigDecimal DRUG_RATIO = BigDecimal.valueOf(0.05);
+    private static final String DRUG_DESC = "5% (D)";
+
+    private static final BigDecimal FOOD_RATIO = BigDecimal.valueOf(0.07);
+    private static final String FOOD_DESC = "7% (F)";
+
+    private static final BigDecimal STANDARD_RATIO = BigDecimal.valueOf(0.23);
+    private static final String STANDARD_DESC = "23%";
+
     public Tax calculateTax(ProductType productType, Money money) {
 
         BigDecimal ratio = null;
@@ -17,16 +26,16 @@ public class TaxCalculaton implements TaxCalculationInterface {
 
         switch (productType) {
             case DRUG:
-                ratio = BigDecimal.valueOf(0.05);
-                desc = "5% (D)";
+                ratio = DRUG_RATIO;
+                desc = DRUG_DESC;
                 break;
             case FOOD:
-                ratio = BigDecimal.valueOf(0.07);
-                desc = "7% (F)";
+                ratio = FOOD_RATIO;
+                desc = FOOD_DESC;
                 break;
             case STANDARD:
-                ratio = BigDecimal.valueOf(0.23);
-                desc = "23%";
+                ratio = STANDARD_RATIO;
+                desc = STANDARD_DESC;
                 break;
 
             default:
