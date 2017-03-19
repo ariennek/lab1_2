@@ -19,9 +19,10 @@ import pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductType;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
 public class BookKeeper {
+    InvoiceFactory invoiceFactory = new InvoiceFactory();
 
     public Invoice issuance(InvoiceRequest invoiceRequest) {
-        Invoice invoice = InvoiceFactory.createInvoice(invoiceRequest.getClient());
+        Invoice invoice = invoiceFactory.createInvoice(invoiceRequest.getClient());
 
         for (RequestItem item : invoiceRequest.getItems()) {
             Money net = item.getTotalCost();

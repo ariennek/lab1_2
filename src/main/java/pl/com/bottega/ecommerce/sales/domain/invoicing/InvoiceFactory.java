@@ -6,9 +6,9 @@ import pl.com.bottega.ecommerce.canonicalmodel.publishedlanguage.Id;
 /**
  * Created by Krzysztof Zimny on 3/19/2017.
  */
-public class InvoiceFactory {
+public class InvoiceFactory implements InvoiceFactoryInterface {
 
-    public static Invoice createInvoice(ClientData clientData) {
+    public Invoice createInvoice(ClientData clientData) {
         Id id = Id.generate();
         return new Invoice(id, clientData);
     }
